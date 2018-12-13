@@ -1,25 +1,25 @@
 import React, { Component } from 'react';
-import logo from './logo.svg';
+import fon from './fon.jpg';
+import emblem from './emblem.png';
 import './App.css';
 
 class App extends Component {
   render() {
     return (
       <div className="App">
-        <header className="App-header">
-          <img src={logo} className="App-logo" alt="logo" />
-          <p>
-            Edit <code>src/App.js</code> and save to reload.
-          </p>
-          <a
-            className="App-link"
-            href="https://reactjs.org"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Learn React
-          </a>
-        </header>
+        <div className="header">
+          <div>
+            <div className="emblem head">
+              <img src={emblem} className='i-emblem' />
+            </div>
+          </div>
+          <div>
+            <div className='account head'>
+              <i class="far fa-user-circle"></i>
+            </div>
+          </div>
+        </div>
+        <img src={fon} className="fon" />
       </div>
     );
   }
