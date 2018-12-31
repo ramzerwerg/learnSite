@@ -19,7 +19,7 @@ class Signup1 extends Component {
                     </div>
                 </div>
 
-                <form className="form">
+                <form className="form" onSubmit="return validate()">
 
                     <div className="form__item">
                         <p>Full name</p>
@@ -48,9 +48,7 @@ class Signup1 extends Component {
 
                     <div className="form__item">
                         <button type="submit" className="form__btn" onClick={() => {
-                            if (document.getElementsByClassName('form__item').input.valid) {
                                 this.props.handleClick(this.state.isClick)
-                            } else { }
                         }}>Set Up Your Account</button>
                     </div>
 
@@ -59,12 +57,11 @@ class Signup1 extends Component {
             </div>
         );
     }
-
-    // handleClick = () => {
-    //     this.setState({
-    //         isClick: true
-    //     })
-    // }
+        
+    validate = () => {
+        const checkInput = document.forms["form"]["name"].value;
+        if()
+    }
 }
 
 export default Signup1
