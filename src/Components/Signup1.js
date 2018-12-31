@@ -57,11 +57,6 @@ class Signup1 extends Component {
             </div>
         );
     }
-        
-    validate = () => {
-        const checkInput = document.forms["form"]["name"].value;
-        if()
-    }
 }
 
 export default Signup1
