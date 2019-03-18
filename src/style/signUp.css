@@ -1,0 +1,138 @@
+
+/* welcome */
+
+.welcome {
+    color: #FEF5F8;
+    width: 100%;
+    align-items: center;
+    display: inline-flex;
+    justify-content: space-around;
+
+}
+
+.welcome__item {
+    width: 50%;
+    vertical-align: middle;
+}
+
+.welcome__text {
+    color: #FEF5F8;
+    font-weight: bold;
+    text-align: center;
+    min-width: 650px;
+}
+
+.welcome__text h1 {
+    font-size: 70px;
+    line-height: 60px;
+}
+
+.welcome__text p {
+    margin-top: 20px;
+    font-size: 28px;
+}
+
+.signup {
+    text-align: left;
+    width: 620px;
+    height: 620px;
+    background: #515151dd;
+    border-radius: 20px;
+    box-shadow: 3px 4px 11px 0px #2A2A2A;
+}
+
+.signup h1 {
+  text-align: left;
+  margin-left: 50px;
+}
+
+.signup p {
+    margin: 10px -5px;
+}
+
+.point div{
+    display: inline-block;
+    width: 50%;
+    margin-top: 20px; 
+}
+.fpoint{
+    text-align: right;
+}
+.point img {
+    margin: 0 60px 0 0;
+    width: 90px;
+}
+
+.form__item {
+    margin: 0px 0px 30px 50px;
+}
+
+.form__input {  
+    width: 500px;
+    height: 40px;
+    border: none;
+    border-radius: 3px;
+    padding-left: 10px;
+    font-size: 20px;
+}
+
+.form__btn {
+    width: 512px;
+    height: 45px;
+    border: none;
+    border-radius: 5px;
+    background: #A1C4F9;
+    color: #EBFBFC;
+    font-weight: bold;
+    font-size: 18px;
+    text-align: center;
+}
+
+input[type=checkbox] {
+    display: none;
+}
+
+.checkbox+label {
+    position: relative;
+    cursor: pointer;
+    white-space: pre;
+    vertical-align: middle;
+    font-size: 17px;
+}
+
+.checkbox+label:before {
+    content: '';
+    position: absolute;
+    left: 0;
+    width: 25px;
+    height: 25px;
+    border-radius: 5px;
+    background: #ffffff;
+}
+
+.checkbox:checked+label:after {
+    content: '\2713';
+    position: absolute;
+    left: 0px;
+    width: 25px;
+    height: 25px;
+    font-size: 22px;
+    text-align: center;
+    margin-top: -3px;
+    border-radius: 5px;
+    color: #2A2A2A;
+}
+
+.form__a {
+    color: #A5BBDB;
+}
+
+.form p:nth-child(7) {
+    text-align: center;
+}
+
+.signup2{
+    height: 400px;
+    padding-top: 20px;
+}
+
